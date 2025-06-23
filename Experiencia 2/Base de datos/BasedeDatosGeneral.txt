@@ -1,0 +1,49 @@
+SELECT * FROM db_usuarios.administrador;
+use db_usuarios;
+INSERT INTO administrador (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,cargo,estado) VALUES (18568916,'6',91363897,'1993-06-02','Ramirez','Astudillo','1234','prueba@gmail.com','Giovanni','Antonio','Administrador','Administrador','inactivo');
+INSERT INTO administrador (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,cargo,estado) VALUES (10000000,'0',99999998,'2020-06-23','Gonzalez','Pinilla','1234','pepito@gmail.com','Luis','Antonio','Administrador','Administrador','activo');
+INSERT INTO administrador (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,cargo,estado) VALUES (10000123,'3',99999997,'2003-04-12','Godoy','Makausko','1234','pepita@gmail.com','Miguel','Kaka','Administrador','Administrador','inactivo');
+INSERT INTO administrador (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,cargo,estado) VALUES (10000321,'k',99999996,'1998-12-09','Mura','Perez','1234','pepi@gmail.com','Pedro','Naomi','Administrador','Administrador','activo');
+INSERT INTO administrador (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,cargo,estado) VALUES (10000222,'1',99999995,'2015-01-15','Valdivieso','Gonzalez','1234','pepipapa@gmail.com','Pablo','Antonio','Administrador','Administrador','activo');
+SELECT * FROM db_usuarios.administrador;
+
+
+SELECT * FROM db_usuarios.cliente;
+use db_usuarios;
+INSERT INTO cliente (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,perfil,nick,numero_casa,calle,comuna) VALUES (12312312,'3',99999994,'1976-02-19','Mur','Murray','1234','tumurrayto@hotmail.com','tucuman','anda','Cliente','Comprador Compulsivo','tumurrayto',556,'Siempre Viva','Providencia');
+INSERT INTO cliente (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,perfil,nick,numero_casa,calle,comuna) VALUES (1010101,'1',99999993,'1889-04-20','Hil','Lend','1234','picassolover@gmail.com','Adolfo','Elias','Cliente','Buscando nuevos aromas','dolfy',765,'Deauchef','Panguipulli');
+INSERT INTO cliente (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,perfil,nick,numero_casa,calle,comuna) VALUES (4530158,'5',99999992,'1964-01-19','Arjona','Morales','1234','terremoto@gmail.com','Edgar','Ricardo','Cliente','Para estar siempre movido','Taxista',563,'Errazuriz','Viña del Mar');
+SELECT * FROM db_usuarios.cliente;
+
+
+SELECT * FROM db_usuarios.empleado;
+use db_usuarios;
+INSERT INTO empleado (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,cargo,fecha_ingreso,id_sucursal,turno,estado) VALUES (33333333,'3',99999991,'1993-02-10','Gomez','Sepulveda','1234','miyaGomez@perfulandia.cl','Miyarai','Camila','Empleado','Empleado','2024-05-10',0,'Mañana','Activo');
+INSERT INTO empleado (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,cargo,fecha_ingreso,id_sucursal,turno,estado) VALUES (21212121,'2',99999990,'1995-10-25','Morenos','Bravo','1234','yaxiMorenos@perfulandia.cl','Yaxilany','Zulay','Empleado','Empleado','2024-05-10',0,'Tarde','Activo');
+INSERT INTO empleado (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,cargo,fecha_ingreso,id_sucursal,turno,estado) VALUES (25456158,'k',99999989,'1992-07-16','Mejias','Gauto','1234','yesaMejias@perfulandia.cl','Yesaidu','Brayan','Empleado','Empleado','2024-05-10',0,'Mañana','Inactivo');
+SELECT * FROM db_usuarios.empleado;
+
+
+SELECT * FROM db_usuarios.gerente;
+use db_usuarios;
+INSERT INTO gerente (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,fecha_ingreso,id_sucursal,turno,estado) VALUES (15487123,'0',99999988,'1915-11-25','Pinocho','Humbarte','1234','agusPinocho@perfulandia.cl','Agusto','Descanso','Gerente','2022-11-24',0,'Mañana','Inactivo');
+INSERT INTO gerente (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,fecha_ingreso,id_sucursal,turno,estado) VALUES (12345678,'8',99999987,'1975-04-02','Balmaceda','Pascal','1234','joseBalmaceda@perfulandia.cl','Jose','Pedro','Gerente','2022-11-24',0,'Mañana','Activo');
+INSERT INTO gerente (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,fecha_ingreso,id_sucursal,turno,estado) VALUES (54231857,'4',99999986,'1958-08-26','Fring','Gonzalez','1234','AgusPinocho@perfulandia.cl','Gustavo','Manuel','Gerente','2022-11-24',1,'Tarde','Activo');
+SELECT * FROM db_usuarios.gerente;
+
+
+SELECT * FROM db_usuarios.permiso;
+use db_usuarios;
+INSERT INTO permiso (nombre,descripcion) VALUES ('Cliente','PERMISOS BASICOS');
+INSERT INTO permiso (nombre,descripcion) VALUES ('Empleado','PERMISOS MEDIOS');
+INSERT INTO permiso (nombre,descripcion) VALUES ('Gerente','PERMISOS AVANZADOS');
+INSERT INTO permiso (nombre,descripcion) VALUES ('Administrador','PERMISOS TOTALES');
+SELECT * FROM db_usuarios.permiso;
+
+
+SELECT * FROM db_usuarios.producto;
+use db_usuarios;
+INSERT INTO producto (nombre,descripcion,precio,descuentoporc,tamano,marca,stock,categoria1,categoria2,categoria3,nombre_img) VALUES ('BLUE NIGHT','Herbal Aromatica',30000,10,100,'LBEL',200,'Masculino','Hombre','Herbal','bluenight');
+INSERT INTO producto (nombre,descripcion,precio,descuentoporc,tamano,marca,stock,categoria1,categoria2,categoria3,nombre_img) VALUES ('SAUVAGE','Eau de Parfum',35000,0,100,'DIOR',200,'Masculino','Hombre','Citrico','sauvage');
+INSERT INTO producto (nombre,descripcion,precio,descuentoporc,tamano,marca,stock,categoria1,categoria2,categoria3,nombre_img) VALUES ('KING OF SEDUCTION','Eau de toilette',25000,0,100,'Antonio-Banderas',200,'Masculino','Hombre','Sutil','kingofseduction');
+SELECT * FROM db_usuarios.producto;

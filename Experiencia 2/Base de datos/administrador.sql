@@ -1,0 +1,8 @@
+SELECT * FROM db_usuarios.administrador;
+use db_usuarios;
+INSERT INTO administrador (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,cargo,estado) VALUES (18568916,'6',91363897,'1993-06-02','Ramirez','Astudillo','1234','prueba@gmail.com','Giovanni','Antonio','Administrador','Administrador','inactivo');
+INSERT INTO administrador (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,cargo,estado) VALUES (10000000,'0',99999998,'2020-06-23','Gonzalez','Pinilla','1234','pepito@gmail.com','Luis','Antonio','Administrador','Administrador','activo');
+INSERT INTO administrador (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,cargo,estado) VALUES (10000123,'3',99999997,'2003-04-12','Godoy','Makausko','1234','pepita@gmail.com','Miguel','Kaka','Administrador','Administrador','inactivo');
+INSERT INTO administrador (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,cargo,estado) VALUES (10000321,'k',99999996,'1998-12-09','Mura','Perez','1234','pepi@gmail.com','Pedro','Naomi','Administrador','Administrador','activo');
+INSERT INTO administrador (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,cargo,estado) VALUES (10000222,'1',99999995,'2015-01-15','Valdivieso','Gonzalez','1234','pepipapa@gmail.com','Pablo','Antonio','Administrador','Administrador','activo');
+SELECT * FROM db_usuarios.administrador;
