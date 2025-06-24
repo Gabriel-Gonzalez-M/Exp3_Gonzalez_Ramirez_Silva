@@ -1,0 +1,5 @@
+use db_usuarios;
+INSERT INTO gerente (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,fecha_ingreso,turno,estado) VALUES (15487123,'0',99999988,'1915-11-25','Pinocho','Humbarte','1234','agusPinocho@perfulandia.cl','Agusto','Descanso','Gerente','2022-11-24','Mañana','Inactivo');
+INSERT INTO gerente (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,fecha_ingreso,turno,estado) VALUES (12345678,'8',99999987,'1975-04-02','Balmaceda','Pascal','1234','joseBalmaceda@perfulandia.cl','Jose','Pedro','Gerente','2022-11-24','Mañana','Activo');
+INSERT INTO gerente (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,fecha_ingreso,turno,estado) VALUES (54231857,'4',99999986,'1958-08-26','Fring','Gonzalez','1234','AgusPinocho@perfulandia.cl','Gustavo','Manuel','Gerente','2022-11-24','Tarde','Activo');
+SELECT * FROM db_usuarios.gerente;

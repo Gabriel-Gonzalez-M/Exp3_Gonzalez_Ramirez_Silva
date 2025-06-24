@@ -1,0 +1,5 @@
+use db_usuarios;
+INSERT INTO cliente (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,perfil,nick,numero_casa,calle,comuna) VALUES (12312312,'3',99999994,'1976-02-19','Mur','Murray','1234','tumurrayto@hotmail.com','tucuman','anda','Cliente','Comprador Compulsivo','tumurrayto',556,'Siempre Viva','Providencia');
+INSERT INTO cliente (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,perfil,nick,numero_casa,calle,comuna) VALUES (1010101,'1',99999993,'1889-04-20','Hil','Lend','1234','picassolover@gmail.com','Adolfo','Elias','Cliente','Buscando nuevos aromas','dolfy',765,'Deauchef','Panguipulli');
+INSERT INTO cliente (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,perfil,nick,numero_casa,calle,comuna) VALUES (4530158,'5',99999992,'1964-01-19','Arjona','Morales','1234','terremoto@gmail.com','Edgar','Ricardo','Cliente','Para estar siempre movido','Taxista',563,'Errazuriz','Viña del Mar');
+SELECT * FROM db_usuarios.cliente;

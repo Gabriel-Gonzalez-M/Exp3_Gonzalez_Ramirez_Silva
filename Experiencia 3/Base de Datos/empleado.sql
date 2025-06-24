@@ -1,0 +1,5 @@
+use db_usuarios;
+INSERT INTO empleado (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,cargo,fecha_ingreso,turno,estado) VALUES (33333333,'3',99999991,'1993-02-10','Gomez','Sepulveda','1234','miyaGomez@perfulandia.cl','Miyarai','Camila','Empleado','Empleado','2024-05-10','Mañana','Activo');
+INSERT INTO empleado (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,cargo,fecha_ingreso,turno,estado) VALUES (21212121,'2',99999990,'1995-10-25','Morenos','Bravo','1234','yaxiMorenos@perfulandia.cl','Yaxilany','Zulay','Empleado','Empleado','2024-05-10','Tarde','Activo');
+INSERT INTO empleado (rut,dv,telefono,nacimiento,ap_paterno,ap_materno,contrasena,correo,pnombre,snombre,permiso,cargo,fecha_ingreso,turno,estado) VALUES (25456158,'k',99999989,'1992-07-16','Mejias','Gauto','1234','yesaMejias@perfulandia.cl','Yesaidu','Brayan','Empleado','Empleado','2024-05-10','Mañana','Inactivo');
+SELECT * FROM db_usuarios.empleado;
